@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+
+   
+    background: linear-gradient(to right, #434343 0%, black 100%); 
+    /* background: linear-gradient(to right, #868f96 0%, #596164 100%); */
+    /* background: linear-gradient(60deg, #29323c 0%, #485563 100%); */
+   
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 10px;
+    color: #F86F03;
+
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px
+}
+
+.cabecalho-menu-item {
+
+}
+
+.cabecalho-imagem {
+    height: 150px;
+    
+}
+
+.produtos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-start;
+    align-content: space-between;
+    color: white;
+}
+
+.produtos-dimensao {
+
+    height: 90px;
+    
+    
+}
